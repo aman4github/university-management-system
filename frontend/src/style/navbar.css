@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    /* top: 65.95px; */
+    /* z-index: -2; For Navbar */
+}
+
+/* Navbar starts here  */
+
+
+.navbar .container-fluid .navbar-brand img {
+    box-sizing:border-box;
+    border: 2px solid rgb(190, 173, 250);
+    border-radius: 8px;
+}
+
+.pre-nav .navbar-nav {
+    background-color: rgb(190, 173, 250);
+    border-radius: 20px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    left: 20%;
+    font-size: medium;
+    display: block;
+}
+
+.navbar-nav > .active > a {
+    background-color: #dfccfb;
+    color: white;
+    border-radius: 20px;
+}
+
+.pre-nav ul li:hover {
+    background-color: #dfccfb;
+    border-radius: 20px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+}
+
+.nav-color {
+    background-color: #fff3da !important;
+}
+
+.btn-help, .modal-login, .modal-login-close {
+    background-color: white;
+    color: rgb(190, 173, 250);
+    font-weight: bold;
+    border: 2px solid rgb(190, 173, 250);
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.btn-help-newaccount {
+    margin-right: 10px;
+}
+
+.btn-help:hover {
+    background-color: rgb(190, 173, 250);
+    color: white;
+    border: 2px solid white;
+}
+
+.modal-login:hover {
+    background-color: rgb(190, 173, 250);
+    color: white;
+    border: 2px solid white;
+}
+
+.modal-login-close:hover {
+    background-color: rgb(190, 173, 250);
+    color: white;
+    border: 2px solid white;
+}
+
+
+/* Navbar ends here  */
+
+/* <-- Modal starts here --> */
+
+.modal-backdrop.fade.show {
+    position: relative;
+    z-index: -10 !important;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-content {
+    border: 1px solid black;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+.modal-body button, .modal-footer button, .modal-close button {
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.modal-body button {
+    color: #F78CA2;
+    border: 2px solid #F78CA2;
+    width: 204px;
+}
+
+.modal-footer button {
+    color: #7ad37c;
+    border: 2px solid #7ad37c;
+}
+
+.modal-close button {
+    color: rgb(167, 144, 241);
+    border: 2px solid rgb(167, 144, 241);
+}
+
+.modal-body button:hover, .modal-footer button:hover, .modal-close button:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+.modal-body button:hover {
+    background-color: #F78CA2;
+}
+
+.modal-footer button:hover {
+    background-color: #7ad37c;
+}
+
+.modal-close button:hover {
+    background-color: rgb(167, 144, 241);
+}
+
+.modal-img {
+    margin-top: -70px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.modal-footer p {
+    font-weight: bold;
+}
+
+.modal-footer p button {
+    width: 150px;
+}
+
+.modal-close {
+    border-top: 0 none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 12px 24px 12px;
+}
+
+.modal-close button {
+    width: 400px;
+}
+
+/* <-- Modal ends here --> */

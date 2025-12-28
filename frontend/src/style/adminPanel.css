@@ -1,0 +1,228 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: linear-gradient(to right, #a993f8, #FC2947); */
+    z-index: -2;
+}
+
+.outerWrapperAdmin {
+    background: linear-gradient(to right, #a993f8, #FC2947);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+    flex-wrap: wrap;
+}
+
+.outerWrapperAdminTop {
+    height: 100%;
+}
+
+.innerWrapper {
+    margin: 22px;
+    display: flex;
+}
+
+.innerWrapperTop {
+    margin-top: 70px;
+}
+
+.heading-admin {
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    color: white;
+}
+
+.heading-btn-admin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    border: 2px solid white;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid white;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    box-shadow: 10px 10px 5px #FDCEDF;
+    /* z-index: -2; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input-field {
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+}
+
+.input-field input {
+    width: 100%;
+    height: 40px;
+    background: transparent !important;
+    border: none !important;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+    color: #fff;
+}
+
+#remember {
+    accent-color: #fff;
+}
+
+.forget span {
+    padding-left: 5px;
+}
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget label p {
+    margin-left: 8px;
+}
+
+.wrapper a {
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+.wrapper .btnWrapper:hover {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+button {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.register {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body p {
+    font-weight: bold;
+    font-size: large;
+}
+
+.dropdownAdmin {
+    /* color: #fff !important; */
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.dropdownAdminLarge {
+    margin-right: 10px;
+    padding: 12px 10px;
+}
+
+.dropdownAdmin:hover {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+.dropdownAdmin:active {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.dropdown-toggle.show {
+    background-color: transparent !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}

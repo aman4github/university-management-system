@@ -1,0 +1,17 @@
+.detailsTable tr {
+    border: 5px solid #eeeeee;
+}
+
+.detailsTable table {
+    margin-top: 100px;
+}
+
+.detailsStudent {
+    margin-top: 25px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.detailsTd {
+    width: 300px;
+}

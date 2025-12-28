@@ -1,0 +1,61 @@
+.outer-table {
+    display: flex;
+    justify-content: center;
+}
+
+.outer-table button {
+    position: absolute;
+    right: 0;
+    margin: 20px 20px 0 0;
+}
+
+.outer-table table {
+    margin-top: 70px;
+    display: table;
+    position: absolute;
+    /* z-index: 2; */
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+
+}
+
+.btnAction {
+    position: relative !important;
+    margin: 5px !important;
+}
+
+.outer-table td,
+th {
+    padding: 15px 20px;
+    text-align: center;
+
+
+}
+
+.outer-table th {
+    background-color: #ba68c8;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+.outer-table tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.outer-table tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-around;
+}
