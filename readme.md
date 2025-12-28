@@ -7,6 +7,7 @@ The system offers **role-based dashboards** for **Admin**, **Faculty**, and **St
 
 ## 🚀 Tech Stack
 
+- **Java:** 17
 - **Backend:** Spring Boot `3.2.5`
 - **Frontend:** React.js
 - **Database:** MySQL
