@@ -71,7 +71,7 @@ The system offers **role-based dashboards** for **Admin**, **Faculty**, and **St
    npm install
 3. Start the development server
     ```bash
-npm start
+   npm start
 
 ---
 
